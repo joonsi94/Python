@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>AA.HTML</h1>
+    <form method="post">
+        <input type="text" name="length">
+        <button>전송</button>
+    </form>
+    {% if img_data %}
+    <img src="data:image/png;base64,{{img_data}}"/>
+    {% endif %}
+</body>
+</html>
